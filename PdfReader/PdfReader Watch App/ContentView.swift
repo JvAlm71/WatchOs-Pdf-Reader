@@ -1,21 +1,11 @@
+
 //
-//  PDFPageView.swift
-//  PDFWatchApp
-//  (Arquivo com a correção final de compilação)
+//  ContentView.swift
+//  (Arquivo com a correção de rotação da imagem)
 //
 
 import SwiftUI
 import CoreGraphics
-
-
-//
-//  ContentView.swift
-//  PdfReader Watch App
-//
-//  Created by victor on 05/08/25.
-//
-
-import SwiftUI
 
 struct ContentView: View {
     @State private var isShowingPDF = false
@@ -77,7 +67,7 @@ struct PDFPageView: View {
                     }
                     .focusable()
                     .focusEffectDisabled()
-                    .digitalCrownRotation($zoomScale, from: 1.0, through: 5.0, by: 0.1, sensitivity: .low, isContinuous: false, isHapticFeedbackEnabled: true)
+                    .digitalCrownRotation($zoomScale, from: 1.0, through: 5.0, by: 0.1, sensitivity: .high, isContinuous: false, isHapticFeedbackEnabled: true)
                     .onAppear {
                         isViewFocused = true
                     }
@@ -109,9 +99,6 @@ struct PDFPageView: View {
             
             let pageRect = page.getBoxRect(.mediaBox)
             
-            // CORREÇÃO: Removida a classe 'UIGraphicsImageRendererFormat'
-            // A escala é passada diretamente para a função de renderização.
-            // Usamos 2.0 para uma boa qualidade em telas Retina.
             let image = renderPageToImage(page: page, size: pageRect.size, scale: 2.0)
             images.append(image)
         }
@@ -138,9 +125,12 @@ struct PDFPageView: View {
         context.setFillColor(UIColor.white.cgColor)
         context.fill(CGRect(origin: .zero, size: scaledSize))
         
-        context.translateBy(x: 0.0, y: scaledSize.height)
-        context.scaleBy(x: scale, y: -scale)
+  
+        let transform = page.getDrawingTransform(.mediaBox, rect: CGRect(origin: .zero, size: scaledSize), rotate: 0, preserveAspectRatio: true)
+        context.concatenate(transform)
+
         
+        // Agora, desenhamos o PDF no contexto já transformado corretamente.
         context.drawPDFPage(page)
         
         guard let cgImage = context.makeImage() else { return UIImage() }
