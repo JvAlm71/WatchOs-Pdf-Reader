@@ -99,8 +99,8 @@ struct PDFPageView: View {
                                 isZoomMode.toggle()
                             }
                             if !isZoomMode {
-                                withAnimation(.easeInOut(duration: 0.2)) {
-                                    crownZoom = 1.0 
+                                withAnimation(.easeInOut(duration: 0.7	)) {
+                                    crownZoom = 1.0
                                 }
                                 showZoomHUD = false
                             } else {
