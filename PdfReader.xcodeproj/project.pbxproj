@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571460DF2E424AB600335D8C /* PdfReader Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 571460DE2E424AB600335D8C /* PdfReader Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		571460E02E424AB600335D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571460D22E424AB600335D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571460DD2E424AB600335D8C;
+			remoteInfo = "PdfReader Watch App";
+		};
+		571460EE2E424AB800335D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571460D22E424AB600335D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571460DD2E424AB600335D8C;
+			remoteInfo = "PdfReader Watch App";
+		};
+		571460F82E424AB800335D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571460D22E424AB600335D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571460DD2E424AB600335D8C;
+			remoteInfo = "PdfReader Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		571461042E424AB800335D8C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				571460DF2E424AB600335D8C /* PdfReader Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		571460D82E424AB600335D8C /* PdfReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PdfReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571460DE2E424AB600335D8C /* PdfReader Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PdfReader Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		571460ED2E424AB800335D8C /* PdfReader Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PdfReader Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		571460F72E424AB800335D8C /* 	.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "\t.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		571460E22E424AB600335D8C /* PdfReader Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PdfReader Watch App";
+			sourceTree = "<group>";
+		};
+		571460F02E424AB800335D8C /* PdfReader Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PdfReader Watch AppTests";
+			sourceTree = "<group>";
+		};
+		571460FA2E424AB800335D8C /* PdfReader Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PdfReader Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571460DB2E424AB600335D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571460EA2E424AB800335D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571460F42E424AB800335D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571460D12E424AB600335D8C = {
+			isa = PBXGroup;
+			children = (
+				571460E22E424AB600335D8C /* PdfReader Watch App */,
+				571460F02E424AB800335D8C /* PdfReader Watch AppTests */,
+				571460FA2E424AB800335D8C /* PdfReader Watch AppUITests */,
+				571460D92E424AB600335D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571460D92E424AB600335D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571460D82E424AB600335D8C /* PdfReader.app */,
+				571460DE2E424AB600335D8C /* PdfReader Watch App.app */,
+				571460ED2E424AB800335D8C /* PdfReader Watch AppTests.xctest */,
+				571460F72E424AB800335D8C /* 	.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571460D72E424AB600335D8C /* PdfReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571461052E424AB800335D8C /* Build configuration list for PBXNativeTarget "PdfReader" */;
+			buildPhases = (
+				571460D62E424AB600335D8C /* Resources */,
+				571461042E424AB800335D8C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571460E12E424AB600335D8C /* PBXTargetDependency */,
+			);
+			name = PdfReader;
+			packageProductDependencies = (
+			);
+			productName = PdfReader;
+			productReference = 571460D82E424AB600335D8C /* PdfReader.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		571460DD2E424AB600335D8C /* PdfReader Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571461012E424AB800335D8C /* Build configuration list for PBXNativeTarget "PdfReader Watch App" */;
+			buildPhases = (
+				571460DA2E424AB600335D8C /* Sources */,
+				571460DB2E424AB600335D8C /* Frameworks */,
+				571460DC2E424AB600335D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				571460E22E424AB600335D8C /* PdfReader Watch App */,
+			);
+			name = "PdfReader Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PdfReader Watch App";
+			productReference = 571460DE2E424AB600335D8C /* PdfReader Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		571460EC2E424AB800335D8C /* PdfReader Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571461082E424AB800335D8C /* Build configuration list for PBXNativeTarget "PdfReader Watch AppTests" */;
+			buildPhases = (
+				571460E92E424AB800335D8C /* Sources */,
+				571460EA2E424AB800335D8C /* Frameworks */,
+				571460EB2E424AB800335D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571460EF2E424AB800335D8C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				571460F02E424AB800335D8C /* PdfReader Watch AppTests */,
+			);
+			name = "PdfReader Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PdfReader Watch AppTests";
+			productReference = 571460ED2E424AB800335D8C /* PdfReader Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		571460F62E424AB800335D8C /* 	 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5714610B2E424AB800335D8C /* Build configuration list for PBXNativeTarget "	" */;
+			buildPhases = (
+				571460F32E424AB800335D8C /* Sources */,
+				571460F42E424AB800335D8C /* Frameworks */,
+				571460F52E424AB800335D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571460F92E424AB800335D8C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				571460FA2E424AB800335D8C /* PdfReader Watch AppUITests */,
+			);
+			name = "	";
+			packageProductDependencies = (
+			);
+			productName = "PdfReader Watch AppUITests";
+			productReference = 571460F72E424AB800335D8C /* 	.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571460D22E424AB600335D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					571460D72E424AB600335D8C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					571460DD2E424AB600335D8C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					571460EC2E424AB800335D8C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 571460DD2E424AB600335D8C;
+					};
+					571460F62E424AB800335D8C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 571460DD2E424AB600335D8C;
+					};
+				};
+			};
+			buildConfigurationList = 571460D52E424AB600335D8C /* Build configuration list for PBXProject "PdfReader" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571460D12E424AB600335D8C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5714610E2E424C0C00335D8C /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 571460D92E424AB600335D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571460D72E424AB600335D8C /* PdfReader */,
+				571460DD2E424AB600335D8C /* PdfReader Watch App */,
+				571460EC2E424AB800335D8C /* PdfReader Watch AppTests */,
+				571460F62E424AB800335D8C /* 	 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571460D62E424AB600335D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571460DC2E424AB600335D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571460EB2E424AB800335D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571460F52E424AB800335D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571460DA2E424AB600335D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571460E92E424AB800335D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571460F32E424AB800335D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571460E12E424AB600335D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571460DD2E424AB600335D8C /* PdfReader Watch App */;
+			targetProxy = 571460E02E424AB600335D8C /* PBXContainerItemProxy */;
+		};
+		571460EF2E424AB800335D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571460DD2E424AB600335D8C /* PdfReader Watch App */;
+			targetProxy = 571460EE2E424AB800335D8C /* PBXContainerItemProxy */;
+		};
+		571460F92E424AB800335D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571460DD2E424AB600335D8C /* PdfReader Watch App */;
+			targetProxy = 571460F82E424AB800335D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		571460FF2E424AB800335D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		571461002E424AB800335D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		571461022E424AB800335D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSYZ6D3TC4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PdfReader;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Local.PdfReader.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		571461032E424AB800335D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSYZ6D3TC4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PdfReader;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Local.PdfReader.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		571461062E424AB800335D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSYZ6D3TC4;
+				INFOPLIST_KEY_CFBundleDisplayName = PdfReader;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Local.PdfReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		571461072E424AB800335D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSYZ6D3TC4;
+				INFOPLIST_KEY_CFBundleDisplayName = PdfReader;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Local.PdfReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		571461092E424AB800335D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Local.PdfReader-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PdfReader Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PdfReader Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		5714610A2E424AB800335D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Local.PdfReader-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PdfReader Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PdfReader Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		5714610C2E424AB800335D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Local.PdfReader-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PdfReader Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		5714610D2E424AB800335D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Local.PdfReader-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PdfReader Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571460D52E424AB600335D8C /* Build configuration list for PBXProject "PdfReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571460FF2E424AB800335D8C /* Debug */,
+				571461002E424AB800335D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571461012E424AB800335D8C /* Build configuration list for PBXNativeTarget "PdfReader Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571461022E424AB800335D8C /* Debug */,
+				571461032E424AB800335D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571461052E424AB800335D8C /* Build configuration list for PBXNativeTarget "PdfReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571461062E424AB800335D8C /* Debug */,
+				571461072E424AB800335D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571461082E424AB800335D8C /* Build configuration list for PBXNativeTarget "PdfReader Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571461092E424AB800335D8C /* Debug */,
+				5714610A2E424AB800335D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5714610B2E424AB800335D8C /* Build configuration list for PBXNativeTarget "	" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5714610C2E424AB800335D8C /* Debug */,
+				5714610D2E424AB800335D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5714610E2E424C0C00335D8C /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 571460D22E424AB600335D8C /* Project object */;
+}
